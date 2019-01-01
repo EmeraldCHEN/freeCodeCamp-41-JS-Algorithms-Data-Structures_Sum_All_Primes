@@ -24,7 +24,6 @@ function sumPrimes(max) {
     }
 }
 sumPrimes(10); // return 17
-
 sumPrimes(977); // return 73156
 
 
