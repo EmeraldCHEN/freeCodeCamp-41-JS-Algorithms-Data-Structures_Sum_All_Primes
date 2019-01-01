@@ -23,6 +23,9 @@ function sumPrimes(max) {
         return max + sumPrimes(max - 1);
     }
 }
+sumPrimes(10); // return 17
+
+sumPrimes(977); // return 73156
 
 
 
