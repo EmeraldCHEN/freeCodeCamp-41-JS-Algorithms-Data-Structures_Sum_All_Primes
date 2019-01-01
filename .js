@@ -19,7 +19,7 @@ function sumPrimes(max) {
         // for non primes check the next number down from the given maximum number
         return sumPrimes(max - 1);
     }else{
-        // for primes add that number to the next number in the sequence through a recursive call to our sumPrimes function
+        // for primes add that number to the next number in the sequence through recursion to sumPrimes function
         return max + sumPrimes(max - 1);
     }
 }
